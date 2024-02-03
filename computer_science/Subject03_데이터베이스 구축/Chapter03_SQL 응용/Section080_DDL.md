@@ -3,10 +3,14 @@
 #### 💡 DDL(Data Definition Language, 데이터 정의어)의 개요
 - DB 구조, 데이터 형식, 접근 방식 등 DB를 구축하거나 수정할 목적으로 사용하는 언어.
 - 번역한 결과를 `데이터 사전(Data Dictionary)`에 여러 개의 테이블로서 저장.
+##### 🔖 스키마(Schema)
+- 데이터베이스의 구조와 제약 조건에 관한 전반적인 명세(Specification)를 기술(Description)한 것.
+- 데이터 개체, 속성, 관계 및 데이터 조작 시 데이터 값들이 가지는 제약 조건 등에 관해 전반적으로 정의.
 <br>
 
 #### 💡 CREATE SCHEMA
 - `스키마를 정의`하는 명령문.
+- 스키마 이름과 소유권자/허가권자를 정의.
 > **CREATE SCHEMA** 스키마명 **AUTHORIZATION** 사용자_id;
 <br>
 
